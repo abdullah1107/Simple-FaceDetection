@@ -1,7 +1,7 @@
 #run command: python face_detection_image.py
 import cv2
 
-
+#face cascades path
 face_cascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
 
 #face detector method
